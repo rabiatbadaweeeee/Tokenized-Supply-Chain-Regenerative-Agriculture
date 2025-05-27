@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/biodiversity.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.carbon-sequestration]
+path = 'contracts/carbon-sequestration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
